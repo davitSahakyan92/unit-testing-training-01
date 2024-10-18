@@ -29,6 +29,7 @@ import { Transaction } from './types/transaction.type';
             <td>{{ transaction.date | date }}</td>
             <td class="actions">
               <button
+                id="deleteTransactionBtn"
                 class="danger"
                 (click)="deleteTransaction(transaction.id)"
               >

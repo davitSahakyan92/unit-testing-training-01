@@ -7,4 +7,8 @@ describe('AppComponent', () => {
       imports: [AppComponent],
     }).compileComponents();
   });
+
+  it('just a test without content', () => {
+    console.log("is working")
+  });
 });
